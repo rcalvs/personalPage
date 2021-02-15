@@ -12,13 +12,15 @@ body {
 }
 
 h1 {
-    font-weight: 1900;
+    font-weight: 190px;
     font-size: 4em;
     background-color: #222430;
     text-align: center;
     color: white;
-    
+    width: 1000px;
+    margin-bottom: 5px;
 }
+
 h2 {
     color: #222430;
     letter-spacing: 5px;
@@ -29,7 +31,9 @@ h2 {
     display: inline-block;
     margin-inline-end: 100px;   
     margin-inline-start: 100px;
-    
+    margin-left: 150px;
+    text-align: center;
+        
 }
 
 .destaquepositivo {
@@ -37,6 +41,8 @@ h2 {
 }
 
 #cabeçalho {
+    width: 1000px;
+    
 
 }
 
@@ -57,6 +63,7 @@ h2 {
     position: relative;
     width: auto;
     position: relative;
+    float: left;
 
 }
 
@@ -65,6 +72,7 @@ h2 {
     text-align: center;
     padding:  70px 50px 20px;
     width: 70%;
+    float: right;
 
 }
 
