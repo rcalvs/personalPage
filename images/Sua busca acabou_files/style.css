@@ -1,0 +1,57 @@
+* {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    /* background: linear-gradient(to right, #6b727b 18%, #222430 100%); 
+    background: linear-gradient(to top, #6b727b 1%, #4e515f 100%); */
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 1900;
+    font-size: 4em;
+    background-color: forestgreen;
+    text-align: center;
+    
+}
+h2 {
+    color: #222430;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.focos {
+    font-size: 16px;
+    display: inline-block;
+    margin-inline-end: 100px;   
+    margin-inline-start: 100px;    
+}
+
+.destaquepositivo {
+    background-color: #6b727b;
+
+}
+
+#cabeçalho {
+      background-color: firebrick;
+}
+
+.sessao {
+    display: inline-flex;
+    background-color: #6b727b;
+
+}
+
+.primeiro-bloco {
+    display: inline-block;
+
+}
+
+.segundo-bloco {
+    text-align: center;
+    padding:  50px 100px 50px;
+
+}

@@ -1,0 +1,89 @@
+* {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    /* background: linear-gradient(to right, #6b727b 18%, #222430 100%); 
+    background: linear-gradient(to top, #6b727b 1%, #4e515f 100%); */
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 1900;
+    font-size: 4em;
+    background-color: #222430;
+    text-align: center;
+    color: white;
+    
+}
+h2 {
+    color: #222430;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.focos {
+    font-size: 16px;
+    display: inline-block;
+    margin-inline-end: 100px;   
+    margin-inline-start: 100px;
+    
+}
+
+.destaquepositivo {
+
+}
+
+#cabeçalho {
+
+}
+
+.sessao1 {
+    display: inline-flex;
+    background-color: #6b727b;
+    width: 1000px;
+    height: 300px;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 5px;
+
+}
+
+.bloco-img {
+    display: block;
+    text-align: center;
+    position: relative;
+    width: auto;
+    position: relative;
+
+}
+
+.bloco-txt {
+    display: block;
+    text-align: center;
+    padding:  70px 50px 20px;
+    width: 70%;
+
+}
+
+.imagem {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+
+}
+
+.sessao2 {
+    display: inline-flex;
+    margin-top: 0px;
+    background-color: white;
+    width: auto;
+    border-radius: 6px;
+    width: 1000px;
+    height: 300px;
+}
