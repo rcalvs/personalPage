@@ -26,19 +26,14 @@ h2 {
     letter-spacing: 5px;
     font-size: 2em;
 }
-.focos {
+.focos li {
     font-size: 16px;
     display: inline-block;
-    margin-inline-end: 100px;   
-    margin-inline-start: 100px;
-    margin-left: 150px;
+    margin-left: 200px;
     text-align: center;
         
 }
 
-.destaquepositivo {
-
-}
 
 #cabeçalho {
     width: 1000px;
