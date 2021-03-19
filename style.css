@@ -1,92 +1,86 @@
 * {
-    margin-left: 0px;
-    padding-left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  font: 100%;
 }
-
 
 body {
-    font-family: 'Playfair Display', serif;
-    /* background: linear-gradient(to right, #6b727b 18%, #222430 100%); 
-    background: linear-gradient(to top, #6b727b 1%, #4e515f 100%); */
-    font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  /* background: linear-gradient(to right, #6b727b 18%, #222430 100%); 
+  background: linear-gradient(to top, #6b727b 1%, #4e515f 100%); */
 }
 
-h1 {
-    font-weight: 190px;
-    font-size: 4em;
-    background-color: #222430;
-    text-align: center;
-    color: white;
-    width: 1000px;
-    margin-bottom: 5px;
+header h1 {
+  font-weight: 190px;
+  font-size: 4em;
+  padding-bottom: 20px;
+  background-color: #222430;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #222430;
+
+}
+.focos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+
+}
+
+li {
+  box-sizing: border-box;
+  border:1px solid #222430;
+  padding: 5px 35px;
 }
 
 h2 {
-    color: #222430;
-    letter-spacing: 5px;
-    font-size: 2em;
-}
-.focos li {
-    font-size: 16px;
-    display: inline-block;
-    margin-left: 200px;
-    text-align: center;
-        
-}
-
-
-#cabeçalho {
-    width: 1000px;
-    
-
+  color: #222430;
+  letter-spacing: 5px;
+  font-size: 2em;
 }
 
 .sessao1 {
-    display: inline-flex;
-    background-color: #6b727b;
-    width: 1000px;
-    height: 300px;
-    border-radius: 6px;
-    position: relative;
-    margin-top: 5px;
-
-}
-
-.bloco-img {
-    display: block;
-    text-align: center;
-    position: relative;
-    width: auto;
-    position: relative;
-    float: left;
-
+  display: flex;
+  background-color: #6b727b;
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+  position: relative;
+  margin-top: 5px;
+  justify-self: space-between;
 }
 
 .bloco-txt {
-    display: block;
-    text-align: center;
-    padding:  70px 50px 20px;
-    width: 70%;
-    float: right;
-
+  display: flex;
+  text-align: center;
+  padding:  70px 50px;
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .imagem {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 6px;
-
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
 }
 
 .sessao2 {
-    display: inline-flex;
-    margin-top: 0px;
-    background-color: white;
-    width: auto;
-    border-radius: 6px;
-    width: 1000px;
-    height: 300px;
+  display: flex;
+  margin-top: 0px;
+  background-color: white;
+  width: auto;
+  border-radius: 6px;
+  height: 300px;
+  width: 100%;
+  justify-self: space-between;
 }
